@@ -18,8 +18,6 @@ wget http://download.virtualbox.org/virtualbox/rpm/el/virtualbox.repo -O /etc/yu
 yum install -y "VirtualBox-5.2"
 /usr/lib/virtualbox/vboxdrv.sh setup
 rm oracle_vbox.asc*
-usermod -a -G vboxusers users
-
 
 yum -y install python-devel
 
